@@ -1,0 +1,1197 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Rajada de Prótons",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Se controlar alguma criatura: escolha 1 criatura, ela ganha +200 ATK e deve atacar imediatamente. Esta criatura não pode atacar novamente neste turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 2,
+      "name": "D-Mech Infra Raptor",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "mech",
+      "effect": [
+        "Quando conjurado: adicione 1 evento \"Dinasvora\" do deck à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 3,
+      "name": "Fuwen, Aprendiz das Artes Yshu",
+      "atk": 500,
+      "def": 300,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando conjurado: conjure 1 criatura \"Yshu\" da mão.",
+        "Pode pagar 1 pt de ação: adicione 1 carta \"Yshu\" do deck à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 4,
+      "name": "Espada da Luz Divina",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Ative 1: escolha 1 criatura, ela ganha +300 ATK.",
+        "Descarte esta carta da mão: ganhe 2 pts."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 5,
+      "name": "Ion, Mestre das Artes Yshu",
+      "atk": 600,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Pode realizar 2 ataques contra criaturas.",
+        "Se outra criatura \"Yshu\" for atacada: aumente o ATK da criatura atacante em 200 até o fim do turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 6,
+      "name": "Ondas Reversas",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "flash",
+      "effect": [
+        "Quando uma criatura inimiga atacar: mude o alvo do ataque para a própria criatura atacante."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 7,
+      "name": "Demian, Marujo de Sharp Waves",
+      "atk": 700,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando atacar: se a criatura inimiga não for destruída, destrua a criatura atacada."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 8,
+      "name": "Técnicas Marciais Yshu",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Quando uma criatura \"Yshu\" batalhar: ative 1",
+        "Escolha 1 \"Yshu\" sua: +200 DEF",
+        "Escolha 1 inimiga: -200 DEF"
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 9,
+      "name": "Svra, Mestre das Artes Yshu",
+      "atk": 600,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Pode realizar um segundo ataque contra criaturas.",
+        "Se destruir uma criatura diferente no 1º ataque: conjure esta carta do limbo ou da mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 10,
+      "name": "Yllor, Mestre das Artes Yshu",
+      "atk": 800,
+      "def": 500,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Pode realizar um segundo ataque.",
+        "Se destruir uma criatura no 1º ataque: pague 2 pts e adicione 1 evento \"Yshu\" do deck à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 11,
+      "name": "Dragão Espiritual das Artes Yshu",
+      "atk": 1000,
+      "def": 700,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "fusão",
+      "type": "dragão",
+      "effect": [
+        "Requisito: Yllor + 1 \"Mestre das Artes Yshu\"",
+        "Uma vez por turno quando conjurado: adicione 1 \"Super Punho Espiritual de Yshu\" do deck/limbo à mão.",
+        "Quando destruído: conjure 1 \"Yshu\" do limbo."
+      ],
+      "fusionOrTransformationRequirements": [
+        "Yllor, Mestre das Artes Yshu",
+        "1 criatura Mestre das Artes Yshu"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dragão Guardião da Luz Sagrada",
+      "atk": 700,
+      "def": 500,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "alada",
+      "effect": [
+        "Quando \"Artemia, A Rainha Arqueira Imortal\" for atacada: conjure esta carta do limbo ou da mão.",
+        "Quando conjurado: criaturas de luz que você controla não podem ser destruídas neste turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 13,
+      "name": "TLLLR Maya",
+      "atk": 500,
+      "def": 300,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando conjurado: adicione 1 criatura \"TLLR\" do deck à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 14,
+      "name": "Super Punho Espiritual de Yshu",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Se controlar pelo menos 1 \"Mestre das Artes Yshu\": destrua criaturas inimigas igual ao número de \"Mestres\" que você controla.",
+        "Se estiver no limbo e um \"Yshu\" seu for atacado: negue o ataque e embaralhe esta carta no deck."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 15,
+      "name": "Rachadura Temporal",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": ["Escolha 1 criatura destruída e a conjure no campo."],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 16,
+      "name": "Mar dos Piratas",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Pague 2 pts: escolha 2 criaturas comuns Guerreiro de Água do deck do oponente; ele escolhe 1 aleatoriamente para você conjurar."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 17,
+      "name": "Elistir, Capitão de Sharp Waves",
+      "atk": 700,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando atacar: reduza a DEF da criatura inimiga em 200 durante o ataque.",
+        "Quando destruído: conjure 1 criatura \"Sharp Waves\" da mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 18,
+      "name": "Baú do Tesouro",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": ["Pague 2 pts: compre 2 cartas."],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 19,
+      "name": "TLLLR Artemia",
+      "atk": 900,
+      "def": 600,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando conjurado: destrua 1 criatura aleatória inimiga.",
+        "Se uma \"TLLR\" sua for destruída: conjure esta carta da mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 20,
+      "name": "Ventos Congelantes",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "flash",
+      "effect": [
+        "Destrua 1 evento no campo do oponente e ele compra 2 cartas (se destruir durante ativação, o efeito não ocorre)."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 21,
+      "name": "Asteroide de Vidro",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "flash",
+      "effect": [
+        "Quando uma criatura for conjurada por efeito de carta: destrua 1 carta no campo ou 1 aleatória da mão do oponente."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 22,
+      "name": "Guerreiro Cibernético Cyrus",
+      "atk": 800,
+      "def": 400,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Se controlar D-Mech ou Luz: conjure esta carta da mão.",
+        "Quando destruir uma criatura em ataque: ganhe 2 pts de ação."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 23,
+      "name": "Natal! Cadete Thomas",
+      "atk": 300,
+      "def": 200,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": "espírito",
+      "type": null,
+      "effect": [
+        "Quando conjurado: adicione 1 \"Natal!\" do deck ou 1 evento do limbo à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 24,
+      "name": "TLLLR Fuwen",
+      "atk": 700,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando atacar: reduza a DEF inimiga em 200.",
+        "Pode pagar 2 pts de ação em defesa: adicione 1 \"TLLR\" do limbo à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 25,
+      "name": "Fundação TLLR",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Conjure 1 \"TLLR Fuwen\" + 1 \"TLLR Maya\" + 1 \"TLLR Artemia\" do deck ou limbo (efeitos não ativam, são destruídos no fim do turno)."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 26,
+      "name": "Tellararreblion",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Destrua todas \"TLLR\" no campo (mínimo 1).",
+        "Conjure 1 \"TLLR Fuwen\" destruído ou do deck: ele pode atacar até 3 vezes e ganha +200 ATK até o fim do turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 27,
+      "name": "Natal! Comandarote Noel",
+      "atk": 800,
+      "def": 600,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "espírito",
+      "type": null,
+      "effect": [
+        "Criaturas \"NATAL!\" não podem ser destruídas por efeitos.",
+        "(Flash) Uma vez por turno, quando o oponente conjurar uma carta com custo: escolha e ative uma carta do seu deck do mesmo custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 28,
+      "name": "Arrogância das Divindades Caídas",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Uma vez por turno se controlar uma carta \"Divindades Caídas\" tipo 1:",
+        "Destrua todas as cartas do oponente.",
+        "Descarte todas as cartas da mão do oponente.",
+        "Conjure quantas criaturas comuns possível da mão ou limbo sem custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 29,
+      "name": "Fábrica Automática Dinasvora",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Ao fim do seu turno: escolha 1 criatura \"D-Mech\" destruída ou no deck com custo 3 ou menor e a conjure no campo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 30,
+      "name": "Artemia, A Rainha Arqueira Imortal",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Quando conjurado: destrua 1 inimiga com menor DEF.",
+        "Quando uma criatura for destruída: adicione 1 evento \"Árvore Sagrada da Eternidade\" do deck à mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 31,
+      "name": "Natal! Soldado Nataniel",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": "espírito",
+      "type": null,
+      "effect": [
+        "Uma vez por turno se controlar uma \"NATAL!\": adicione 1 \"NATAL!\" da mão.",
+        "Conjure esta carta da mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 32,
+      "name": "Tronco Suspeito",
+      "atk": 0,
+      "def": 0,
+      "cost": 1,
+      "cardType": "monster",
+      "creatureType": "objeto",
+      "type": null,
+      "effect": [
+        "Se estiver na mão: pode descartar esta carta e comprar uma carta."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 33,
+      "name": "Magista Agente James",
+      "atk": 700,
+      "def": 500,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "mago",
+      "type": null,
+      "effect": [
+        "Quando conjurado: declare um tipo de carta; o oponente revela o topo do deck. Se acertar, destrua a carta e conjure 1 \"Magista\" do deck.",
+        "Uma vez por turno quando atacar: ative 1 evento \"Magia Magista\" da mão sem custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 34,
+      "name": "Disassociação de Energia",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Se não controlar nenhuma criatura: escolha 1 inimiga no campo e a destrua. Ganhe pts iguais ao custo da criatura destruída."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 35,
+      "name": "Sobrecarregar Carta",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Para todas as cartas que usaram pts como custo neste turno: ganhe o dobro do custo delas."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 36,
+      "name": "Conflito da Luz Contra o Caos",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "flash",
+      "effect": [
+        "Quando o oponente conjurar uma criatura, ative 1:",
+        "Adicione 1 criatura de luz do deck ou limbo à mão.",
+        "Conjure 1 \"Artemia, A Rainha...\" ou \"Dragão Guardião da Luz\" ou \"Guerreiro Cibernético Cyrus\" da mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 37,
+      "name": "Mecanismos \"Mech\"",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Se controlar uma criatura Luz ou D-Mech: adicione 1 \"Guerreiro Cibernético Cyrus\" à mão.",
+        "Se controlar \"Guerreiro Cibernético Cyrus\": destrua 1 carta no campo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 38,
+      "name": "Loot Box",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Para cada turno que esta carta passar no campo: ative efeitos progressivos:",
+        "1 turno: destrua 1 carta no campo.",
+        "2 turnos: ganhe 3 pts.",
+        "3 turnos: conjure 1 carta do deck sem custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 39,
+      "name": "Devastação",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Só pode ser ativada e usar seus efeitos se controlar 1 \"Tellar, O Dragão Lendário do Paraíso\" e seu custo se torna 0 para sua conjuração.",
+        "Na sua fase de compra, se a carta comprada for uma criatura, destrua uma criatura no campo se for um evento, ative seus efeitos imediatamente sem custo.",
+        "Uma vez por turno pode descartar esta carta e add 1 \"Tellar, O Dragão Lendário do Paraíso\" a sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 40,
+      "name": "Arauto Das Divindades Caídas",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "mago",
+      "effect": [
+        "Uma vez por turno quando conjurado: add até 2 cartas do deck especial de Transformação do limbo para o deck.",
+        "Uma vez por turno ganhe 2 pontos para conjuração de uma carta \"Divindades Caídas\"."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 41,
+      "name": "Rede Neural Dinasvora",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continua",
+      "effect": [
+        "Quando uma criatura \"D-Mech\" que você controla for alvo de um ataque: add 1 criatura \"D-Mech\" do deck a sua mão (máx 1 por turno)."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 42,
+      "name": "Natal! Fuzileiro Grinch",
+      "atk": 700,
+      "def": 500,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "espírito",
+      "type": null,
+      "effect": [
+        "Quando conjurado: destrua uma carta no campo.",
+        "Uma vez por turno se estiver no limbo e uma criatura \"NATAL!\" sua for destruída: conjure esta carta do limbo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 43,
+      "name": "Inquisitor Das Divindades Caídas",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "mago",
+      "effect": [
+        "Quando o oponente conjurar uma criatura no campo (flash): destrua a criatura conjurada e conjure esta carta da sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 44,
+      "name": "Árvore Sagrada da Eternidade",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Uma vez por turno se 1 \"Artemia, A Rainha Arqueira Imortal\" for destruída: escolha 1 \"Artemia, A Rainha Arqueira Imortal\" do limbo ou da sua mão e a conjure no campo.",
+        "Se esta carta estiver no limbo você pode descartar uma carta de luz e adicionar esta carta a sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 45,
+      "name": "Adorador Das Divindades Caídas",
+      "atk": 500,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "mago",
+      "effect": [
+        "Quando o oponente ativar um efeito que destrua uma carta sua: descarte esta carta da sua mão e conjure 1 \"Divindades Caídas\" do seu deck e ela não pode ser destruída neste turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 46,
+      "name": "Magista Agente Rowert",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": "mago",
+      "type": null,
+      "effect": [
+        "Quando atacado: escolha uma criatura inimiga no campo ou no limbo de qualquer jogador e esta carta assume o ATK e a DEF da criatura escolhida até o fim do turno.",
+        "Uma vez por turno quando atacar: ative 1 evento \"Magia Magista\" da sua mão sem custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 47,
+      "name": "Santuário Das Divindades Caídas",
+      "atk": null,
+      "def": null,
+      "cost": 2,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Se uma criatura \"Divindades Caídas\" sua for destruída: compre uma carta.",
+        "Uma vez por turno escolha uma criatura \"Divindades Caídas\" que você controla e ela pode atacar diretamente neste turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 48,
+      "name": "Tália, Imediata de Sharp Waves",
+      "atk": 600,
+      "def": 600,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Uma vez por turno: conjure 1 criatura comum \"Sharp Waves\" do limbo para o campo.",
+        "Quando destruído: aumente a DEF de uma criatura de água em 100."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 49,
+      "name": "Artemia Deusa Guardiã da Luz Sagrada",
+      "atk": 1000,
+      "def": 700,
+      "cost": 4,
+      "cardType": "monster",
+      "creatureType": "fusão",
+      "type": "guerreiro",
+      "effect": [
+        "(Flash) Uma vez por turno, todas as criaturas inimigas atacam esta carta.",
+        "Uma criatura de luz destruída paga 2 pts e não pode ser destruída neste turno.",
+        "Quando destruída: conjure 1 criatura de luz do limbo para o campo."
+      ],
+      "fusionOrTransformationRequirements": [
+        "Artemia, A Rainha Arqueira Imortal",
+        "Dragão Guardião da Luz Sagrada"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Magista Agente Annie",
+      "atk": 600,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": "mago",
+      "type": null,
+      "effect": [
+        "Quando destruído: adicione 1 evento \"Magista\" do deck ou limbo à mão.",
+        "Uma vez por turno quando atacar: ative 1 evento \"Magia Magista\" da mão sem custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 51,
+      "name": "Magia Magista Apoio Aéreo",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Quando 1 \"Magista\" que você controla atacar: sua criatura não pode ser destruída por efeitos até o fim da fase de batalha e se destruir uma criatura no ataque você pode destruir 1 criatura no campo.",
+        "Você pode descartar esta carta da sua mão e comprar 1 carta."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 52,
+      "name": "Inquisitor Ascendido Das Divindades Caídas",
+      "atk": 700,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "mago",
+      "effect": [
+        "Uma vez por turno se o oponente controlar mais criaturas que você: destrua criaturas até ambos terem a mesma quantidade no campo.",
+        "Quando destruído: escolha uma criatura do limbo do oponente e envie ela para o deck especial do oponente."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 53,
+      "name": "Dojo De Ninjutsu-X",
+      "atk": null,
+      "def": null,
+      "cost": 2,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Uma vez por turno ative 1: escolha 1 \"Nin-X\" no limbo ou deck e adicione à sua mão.",
+        "Escolha 1 criatura \"Nin-X\" que você controla e aumente sua defesa em 200 até o início de seu próximo turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 54,
+      "name": "Exército do Natal Eterno",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Se controlar 1 criatura \"NATAL!\": adicione até 2 \"NATAL! Soldado Nataniel\".",
+        "Se estiver no limbo: pague 2 pts e conjure 1 criatura do limbo mas ela tem seus efeitos negados."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 55,
+      "name": "Supernova",
+      "atk": null,
+      "def": null,
+      "cost": 4,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": ["Destrua todas as cartas inimigas."],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 56,
+      "name": "Arauto Ascendido Das Divindades Caídas",
+      "atk": 700,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "mago",
+      "effect": [
+        "Quando conjurado: conjure 1 carta \"Divindades Caídas\" do deck no seu lado do campo.",
+        "Quando destruído: envie esta carta para o deck especial e conjure 1 \"Arauto Divino Das Divindades Caídas\" do deck especial para o campo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 57,
+      "name": "Nin-X Da Lâmina Rubra",
+      "atk": 700,
+      "def": 300,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Uma vez por turno conjure 1 criatura \"Nin-X\" do limbo com nome diferente desta carta mas negue seu efeito de conjuração.",
+        "Quando for alvo de ataque: devolva esta carta para a sua mão e conjure 1 \"Tronco Suspeito\" da sua mão, negando seus efeitos de conjuração, e devolva 1 \"Tronco Suspeito\" do campo à sua mão se possível."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 58,
+      "name": "Pergaminho Ancestral",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Escolha uma carta no limbo de qualquer jogador e ganhe pts de ação equivalente ao custo da carta escolhida."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 59,
+      "name": "Magia Magista Vácuo Mágico",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Quando 1 \"Magista\" que você controla atacar: se a criatura atacada for destruída, conjure a criatura em seu lado do campo.",
+        "Você pode descartar esta carta da sua mão e adicionar 1 carta Magista do deck à sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 60,
+      "name": "Ciclone Elétrico",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": ["Destrua até duas cartas de evento no campo."],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 61,
+      "name": "Batalha de Sharp Waves",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Uma vez por turno se seu oponente controlar alguma criatura: ative 1 efeito.",
+        "Destrua 1 criatura inimiga.",
+        "Add 1 criaturas \"Sharp Waves\" do seu deck à sua mão.",
+        "Conjure 1 criatura \"Sharp Waves\" do limbo para o campo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 62,
+      "name": "Magia Magista Avanço Total",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Quando 1 \"Magista\" que você controla atacar: sua criatura pode atacar todas as criaturas que seu oponente controla.",
+        "Você pode descartar esta carta da sua mão e adicionar 1 carta Magista do limbo à sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 63,
+      "name": "Nin-X Da Lâmina Luminosa",
+      "atk": 700,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Uma vez por turno conjure 1 \"Nin-X\" do limbo com nome diferente desta carta mas negue seu efeito de conjuração.",
+        "Quando for alvo de ataque: devolva esta carta para a sua mão e conjure 1 \"Tronco Suspeito\" da sua mão, negando seus efeitos de conjuração, e devolva 1 \"Tronco Suspeito\" do campo à sua mão se possível."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 64,
+      "name": "Arauto Divino Das Divindades Caídas",
+      "atk": 1000,
+      "def": 700,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "divino",
+      "type": null,
+      "effect": [
+        "Quando conjurado: destrua uma carta no campo.",
+        "Enquanto estiver no campo: negue efeitos e todas as outras criaturas de luz que você controla ganham 200 de DEF.",
+        "Uma vez por turno conjure 1 criatura \"Divindades Caídas\" do limbo no seu campo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 65,
+      "name": "Adorador Ascendido Das Divindades Caídas",
+      "atk": 800,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Uma vez por turno: todas as criaturas tipo Luz que você controla ganham 300 de ATK até o fim do turno.",
+        "Quando destruído add 1 carta \"Divindades Caídas\" do deck à sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 66,
+      "name": "Criação",
+      "atk": null,
+      "def": null,
+      "cost": 1,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Só pode ser ativada e usar seus efeitos se controlar 1 \"Tellar, O Dragão Lendário do Paraíso\" e seu custo se torna 0 para sua conjuração.",
+        "Na sua fase de compra, se a carta comprada for uma criatura, conjure no seu campo sem custo e se for um evento, ative seus efeitos imediatamente sem custo.",
+        "Uma vez por turno pode descartar esta carta e add 1 \"Tellar, O Dragão Lendário do Paraíso\" a sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 67,
+      "name": "Nin-X Da Lâmina Lunar",
+      "atk": 600,
+      "def": 300,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Uma vez por turno conjure 1 \"Nin-X\" do limbo com nome diferente desta carta mas negue seu efeito de conjuração.",
+        "Quando for alvo de ataque: devolva esta carta para a sua mão e conjure 1 \"Tronco Suspeito\" da sua mão, negando seus efeitos de conjuração, e devolva 1 \"Tronco Suspeito\" do campo à sua mão se possível."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 68,
+      "name": "Dragão Guardião da Luz Sagrada",
+      "atk": 700,
+      "def": 500,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "alada",
+      "effect": [
+        "Quando uma carta \"Artemia, A Rainha Arqueira Imortal\" for atacada: conjure esta carta destruída ou da sua mão.",
+        "Quando conjurado: criaturas tipo Luz que você controla não podem ser destruídas neste turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 69,
+      "name": "TLLR Taikim",
+      "atk": 600,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "guerreiro",
+      "effect": [
+        "Contínuo: reduz o ATK de todas as criaturas inimigas em 200.",
+        "Se controlar uma criatura \"TLLR\": conjure esta carta da sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 70,
+      "name": "Tellar, O Lendário Dragão do Paraíso",
+      "atk": 0,
+      "def": null,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": "divina",
+      "type": null,
+      "effect": [
+        "Se esta carta atacar os pontos de vida de seu oponente diretamente: \"Criação\" e \"Devastação\" você vence a partida.",
+        "Se esta criatura for a única que você controla: seu oponente pode atacar diretamente seus pontos de vida.",
+        "Esta carta seria mandada para o limbo: embaralhe esta carta no seu deck."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 71,
+      "name": "Espírito Transcendental",
+      "atk": 600,
+      "def": 500,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": "espírito",
+      "type": null,
+      "effect": [
+        "Pague 2 pts e add 1 evento do deck à sua mão uma vez por turno quando um evento que você controla for enviado ao limbo: conjure esta carta da sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 72,
+      "name": "Olhar Da Precisão Assassina",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "flash",
+      "effect": [
+        "Se controlar uma criatura \"Nin-X\": aumente o ATK ou a DEF de 1 criatura \"Nin-X\" que você controla em 200 até o fim do turno.",
+        "Se esta carta estiver no limbo e um \"Nin-X\" que você controla for destruído: envie esta carta para o deck especial e add 1 criatura do limbo à sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 73,
+      "name": "Investigação Magista",
+      "atk": null,
+      "def": null,
+      "cost": 2,
+      "cardType": "event",
+      "creatureType": null,
+      "type": "continuo",
+      "effect": [
+        "Uma vez por turno se controlar uma criatura \"Magista\": escolha uma carta aleatória da mão do oponente, ele deve revelá-la e então:",
+        "Se for uma criatura, destrua uma criatura no campo.",
+        "Se for um evento, adicione 1 evento \"Magista\" de seu deck ou limbo à sua mão."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 74,
+      "name": "Tallaria, Terror de Sharp Waves",
+      "atk": 1000,
+      "def": 600,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "transformação",
+      "type": "réptil",
+      "effect": [
+        "Todas as outras criaturas tipo água que você controla ganham +200 de ATK.",
+        "Quando destruído: conjure 1 criatura \"Talia, Imediata de Sharp Waves\" do limbo para o campo."
+      ],
+      "fusionOrTransformationRequirements": ["Tália, Imediata de Sharp Waves"]
+    },
+    {
+      "id": 75,
+      "name": "Nin-X Da Lâmina Eclipse Rubra",
+      "atk": 1100,
+      "def": 600,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "fusão",
+      "type": "guerreiro",
+      "effect": [
+        "Quando conjurado: devolva do limbo para o deck até 2 \"Tronco Suspeito\" e se devolver exatamente 2 \"Tronco Suspeito\" para o deck compre uma carta.",
+        "Quando for alvo de ataque: devolva esta carta para o deck especial e conjure 1 \"Tronco Suspeito\" do campo ou da mão se possível."
+      ],
+      "fusionOrTransformationRequirements": [
+        "Nin-X Da Lâmina Luminosa",
+        "1 criatura Nin-X"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Dragão Místico Da Rebelião",
+      "atk": 900,
+      "def": 400,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "dragão",
+      "effect": [
+        "Uma vez por turno você pode pagar 2 pts e destruir uma carta no campo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 77,
+      "name": "Natal! Comandante Noel",
+      "atk": 800,
+      "def": 600,
+      "cost": 3,
+      "cardType": "monster",
+      "creatureType": "espírito",
+      "type": null,
+      "effect": [
+        "Criaturas \"NATAL!\" não podem ser destruídas por efeitos.",
+        "Uma vez por turno, quando o oponente conjurar uma carta que possua custo: escolha uma carta de seu deck de mesmo custo e ative."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 78,
+      "name": "Arrogância Das Divindades Caídas",
+      "atk": null,
+      "def": null,
+      "cost": 0,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Uma vez por turno se controlar uma carta /\"Divindades Caídas\" tipo divino ative 1:",
+        "Destrua todas as cartas do oponente.",
+        "Descarte todas as cartas da mão do oponente.",
+        "Conjure quantas criaturas comuns possível de sua mão ou limbo sem custo."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 79,
+      "name": "Espelho Dimensional",
+      "atk": null,
+      "def": null,
+      "cost": 2,
+      "cardType": "event",
+      "creatureType": null,
+      "type": null,
+      "effect": [
+        "Escolha 1 criatura que seu oponente controla: tome o controle desta criatura até o fim do turno."
+      ],
+      "fusionOrTransformationRequirements": null
+    },
+    {
+      "id": 80,
+      "name": "Dragão Da Luz",
+      "atk": 700,
+      "def": 400,
+      "cost": 2,
+      "cardType": "monster",
+      "creatureType": null,
+      "type": "dragão",
+      "effect": [
+        "Quando conjurado: todas as criaturas de trevas inimigas perdem 200 de ATK.",
+        "Quando destruído: adicione uma criatura de luz do seu deck ou limbo."
+      ],
+      "fusionOrTransformationRequirements": null
+    }
+  ]
+}
