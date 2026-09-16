@@ -345,11 +345,15 @@
       "11",
       "12"
     ],
-    "coverCardIds": [],
+    "coverCardIds": [
+      "78",
+      "77",
+      "76"
+    ],
     "wins": 0,
     "losses": 0,
     "ties": 0,
     "createdAt": "2026-09-16T18:46:06.259Z",
-    "updatedAt": "2026-09-16T18:46:06.259Z"
+    "updatedAt": "2026-09-16T18:46:27.779Z"
   }
 ]
