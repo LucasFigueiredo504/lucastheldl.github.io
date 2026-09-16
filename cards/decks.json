@@ -53,5 +53,26 @@
     "ties": 0,
     "createdAt": "2026-09-16T17:48:58.102Z",
     "updatedAt": "2026-09-16T17:49:20.831Z"
+  },
+  {
+    "id": "nin-x-kleber",
+    "name": "Nin-X Kleber",
+    "description": "",
+    "cardIds": [
+      "10",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "57"
+    ],
+    "coverCardIds": [],
+    "wins": 0,
+    "losses": 0,
+    "ties": 0,
+    "createdAt": "2026-09-16T17:51:23.196Z",
+    "updatedAt": "2026-09-16T17:51:23.196Z"
   }
 ]
