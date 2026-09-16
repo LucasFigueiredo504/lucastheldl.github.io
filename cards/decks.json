@@ -431,11 +431,15 @@
       "68",
       "47"
     ],
-    "coverCardIds": [],
+    "coverCardIds": [
+      "61",
+      "49",
+      "46"
+    ],
     "wins": 0,
     "losses": 0,
     "ties": 0,
     "createdAt": "2026-09-16T19:08:54.839Z",
-    "updatedAt": "2026-09-16T19:08:54.839Z"
+    "updatedAt": "2026-09-16T19:09:19.676Z"
   }
 ]
