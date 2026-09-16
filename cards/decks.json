@@ -297,11 +297,15 @@
       "68",
       "10"
     ],
-    "coverCardIds": [],
+    "coverCardIds": [
+      "18",
+      "30",
+      "31"
+    ],
     "wins": 0,
     "losses": 0,
     "ties": 0,
     "createdAt": "2026-09-16T18:42:40.106Z",
-    "updatedAt": "2026-09-16T18:42:40.106Z"
+    "updatedAt": "2026-09-16T18:43:46.984Z"
   }
 ]
