@@ -3,11 +3,20 @@
     "id": "doloremque-soluta-no",
     "name": "Doloremque soluta no",
     "description": "Illum provident vo",
-    "cardIds": [],
+    "cardIds": [
+      "04",
+      "03",
+      "02"
+    ],
+    "coverCardIds": [
+      "03",
+      "04",
+      "02"
+    ],
     "wins": 42,
     "losses": 42,
     "ties": 35,
     "createdAt": "2026-09-16T16:06:26.204Z",
-    "updatedAt": "2026-09-16T16:06:26.204Z"
+    "updatedAt": "2026-09-16T17:22:36.734Z"
   }
 ]
