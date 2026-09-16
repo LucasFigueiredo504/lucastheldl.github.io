@@ -43,11 +43,15 @@
       "58",
       "60"
     ],
-    "coverCardIds": [],
+    "coverCardIds": [
+      "52",
+      "58",
+      "53"
+    ],
     "wins": 0,
     "losses": 0,
     "ties": 0,
     "createdAt": "2026-09-16T17:48:58.102Z",
-    "updatedAt": "2026-09-16T17:48:58.102Z"
+    "updatedAt": "2026-09-16T17:49:20.831Z"
   }
 ]
