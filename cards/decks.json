@@ -328,7 +328,7 @@
   },
   {
     "id": "divindade",
-    "name": "Divindade",
+    "name": "Divindades Caídas",
     "description": "",
     "cardIds": [
       "78",
@@ -375,7 +375,7 @@
     "losses": 0,
     "ties": 0,
     "createdAt": "2026-09-16T18:46:06.259Z",
-    "updatedAt": "2026-09-17T14:18:19.299Z"
+    "updatedAt": "2026-09-17T18:17:08.848Z"
   },
   {
     "id": "deusa",
